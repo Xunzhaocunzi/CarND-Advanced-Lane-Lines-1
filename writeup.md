@@ -37,7 +37,7 @@ cv2.Sobel(gray, cv2.CV_64F,1,0,ksize=3)
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 ![project the lane boundaries back to image](output_images/video_sample.JPG) 
 
-![results](project_video_output1)
+![results](project_video_output1.mp4)
 
 
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
