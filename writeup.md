@@ -18,7 +18,7 @@ cv2.getPerspectiveTransform(src, dst)
 
 cv2.warpPerspective(image, M, img_size)
 
-![Camera calibration](chessboard.JPG)
+![Camera calibration](output_images/chessboard.JPG)
 
 * Use color transforms, gradients, etc., to create a thresholded binary image.
 [image2]: ./output_images/gradient_hls.JPG "Edge detection and HLS colorspace transform"
