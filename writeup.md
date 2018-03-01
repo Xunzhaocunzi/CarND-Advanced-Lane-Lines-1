@@ -21,23 +21,23 @@ cv2.warpPerspective(image, M, img_size)
 ![Camera calibration](output_images/chessboard.JPG)
 
 * Use color transforms, gradients, etc., to create a thresholded binary image.
-[image2]: ./output_images/gradient_hls.JPG "Edge detection and HLS colorspace transform"
+![Edge detection and HLS colorspace transform](output_images/gradient_hls.JPG)
 Critical functions: 
 cv2.cvtColor(img, cv2.COLOR_BGR2HLS)
 cv2.Sobel(gray, cv2.CV_64F,1,0,ksize=3)
 * Apply a perspective transform to rectify binary image ("birds-eye view").
-[image3]: ./output_images/birdview2.JPG "birds-eye view"
-[image4]: ./output_images/birdview.JPG "binary birds-eye view"
+![birds-eye view](output_images/birdview2.JPG)
+![binary birds-eye view](output_images/birdview.JPG)
 * Detect lane pixels and fit to find the lane boundary.
 * Determine the curvature of the lane and vehicle position with respect to center.
-[image5]: ./output_images/sliding_window.JPG "search the image to find lane lines"
+![search the image to find lane lines](output_images/sliding_window.JPG)
 * Determine the curvature of the lane and vehicle position with respect to center.
 
 * Warp the detected lane boundaries back onto the original image.
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
-[image6]: ./output_images/video_sample.JPG "project the lane boundaries back to image"
+![project the lane boundaries back to image](output_images/video_sample.JPG) 
 
-[video1]: ./project_video_output1 "results"
+![results](project_video_output1)
 
 
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
